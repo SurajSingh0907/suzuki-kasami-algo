@@ -1,0 +1,73 @@
+======== Welcome to Suzuki-Kasami Algorithm @written by Suraj Singh =========
+
+Enter no. of sites :4
+
+Enter token holder site :
+3
+::::: Options:<code> ::::
+1. Request: rqt
+2. Release: rls
+3. System Status: sts
+4. End: end
+Enter your choice :rqt
+Enter requesting site no. :
+4
+Site 4 gets the token, so will enter critical section
+::::: Options:<code> ::::
+1. Request: rqt
+2. Release: rls
+3. System Status: sts
+4. End: end
+Enter your choice :sts
+============ Token Status ============
+Token holder : S4
+Token Queue :[]
+Token LN array : 0 | 0 | 0 | 0 |
+Request array : 0 | 0 | 0 | 1 |
+::::: Options:<code> ::::
+1. Request: rqt
+2. Release: rls
+3. System Status: sts
+4. End: end
+Enter your choice :rqt
+Enter requesting site no. :
+1
+Site 4 holds token and currently executing, And site 1 puts its request on queue.
+::::: Options:<code> ::::
+1. Request: rqt
+2. Release: rls
+3. System Status: sts
+4. End: end
+Enter your choice :sts
+============ Token Status ============
+Token holder : S4
+Token Queue :1-->
+Token LN array : 0 | 0 | 0 | 0 |
+Request array : 1 | 0 | 0 | 1 |
+::::: Options:<code> ::::
+1. Request: rqt
+2. Release: rls
+3. System Status: sts
+4. End: end
+Enter your choice :rls
+Enter release site no.:
+4
+Site 4 releases the critical section
+Site 1 gets token and enters critical section
+::::: Options:<code> ::::
+1. Request: rqt
+2. Release: rls
+3. System Status: sts
+4. End: end
+Enter your choice :sts
+============ Token Status ============
+Token holder : S1
+Token Queue :[]
+Token LN array : 0 | 0 | 0 | 1 |
+Request array : 1 | 0 | 0 | 1 |
+::::: Options:<code> ::::
+1. Request: rqt
+2. Release: rls
+3. System Status: sts
+4. End: end
+Enter your choice :end
