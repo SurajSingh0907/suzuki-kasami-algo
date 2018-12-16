@@ -19,7 +19,7 @@ Enter your choice :rqt
 Enter requesting site no. :
 4
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>......Here: 
+Here: 
 Options are: 
 rqt : to request token for a site
 rls : to release token for a site
